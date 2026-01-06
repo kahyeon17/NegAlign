@@ -1,0 +1,48 @@
+✅ NegAlign 폴더 정리 완료!
+
+디렉토리 구조:
+================
+
+core/           - 핵심 모델 파일 (clip_negalign.py, cam_bg.py, etc.)
+tests/          - 테스트 스크립트 (test_*.py)
+scripts/        - 실행 스크립트 (*.sh)
+examples/       - 예제 코드
+docs/           - 문서 파일 (*.md)
+logs/           - 실험 로그 (*.log)
+results/        - 실험 결과 (JSON)
+data/           - 데이터 파일
+utils/          - 유틸리티 함수
+
+주요 파일:
+=========
+
+📌 현재 실험:
+  - scripts/run_imagenet_p_align_test.sh (실행 중)
+  - logs/imagenet_p_align_test_*.log (실시간 로그)
+  - tests/test_imagenet_p_align_variants.py (테스트 코드)
+
+📌 핵심 코드:
+  - core/clip_negalign.py (메인 모델)
+  - core/clip_negalign_v2.py (8 variants)
+  - core/cam_bg.py (CAM 추출)
+
+📌 문서:
+  - README.md (프로젝트 개요)
+  - INDEX.md (빠른 탐색)
+  - docs/PALIGN_RESCUE_PLAN.md (개선 전략)
+
+Import 경로 변경:
+================
+
+Before: from clip_negalign import CLIPNegAlign
+After:  from core import CLIPNegAlign
+
+모든 README 파일:
+================
+
+- README.md (루트)
+- INDEX.md (파일 인덱스)
+- core/README.md (추가 가능)
+- tests/README.md ✓
+- scripts/README.md ✓
+- logs/README.md ✓

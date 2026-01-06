@@ -1,0 +1,216 @@
+{
+  "timestamp": "2026-01-05T14:31:39.882448",
+  "id_dataset": "WaterBirds test",
+  "ood_dataset": "PlacesBG",
+  "id_samples": 5794,
+  "ood_samples": 10000,
+  "experiments": {
+    "baseline_no_amb": {
+      "method": "baseline_no_amb",
+      "metrics": {
+        "auroc": 0.9768601311701761,
+        "aupr_in": 0.9459143669115769,
+        "aupr_out": 0.9865261766389628,
+        "fpr95": 0.0747
+      }
+    },
+    "soft_only": {
+      "method": "soft_only",
+      "metrics": {
+        "auroc": 0.9723882637210909,
+        "aupr_in": 0.9384670826361307,
+        "aupr_out": 0.9830406878379595,
+        "fpr95": 0.0956
+      }
+    },
+    "soft_palign_lambda_1.0": {
+      "method": "soft_palign_lambda_1.0",
+      "metrics": {
+        "auroc": 0.9732153089402831,
+        "aupr_in": 0.9413397281857183,
+        "aupr_out": 0.9841623175825076,
+        "fpr95": 0.0919
+      }
+    },
+    "soft_palign_lambda_2.0": {
+      "method": "soft_palign_lambda_2.0",
+      "metrics": {
+        "auroc": 0.9739470831895063,
+        "aupr_in": 0.9431012916826265,
+        "aupr_out": 0.9849471156307086,
+        "fpr95": 0.0863
+      }
+    },
+    "soft_palign_lambda_3.0": {
+      "method": "soft_palign_lambda_3.0",
+      "metrics": {
+        "auroc": 0.9745423369002417,
+        "aupr_in": 0.9442716456154711,
+        "aupr_out": 0.9855135015287646,
+        "fpr95": 0.0829
+      }
+    },
+    "soft_palign_lambda_4.0": {
+      "method": "soft_palign_lambda_4.0",
+      "metrics": {
+        "auroc": 0.9750245426303072,
+        "aupr_in": 0.945102272537166,
+        "aupr_out": 0.9859322256546513,
+        "fpr95": 0.0814
+      }
+    },
+    "soft_palign_lambda_5.0": {
+      "method": "soft_palign_lambda_5.0",
+      "metrics": {
+        "auroc": 0.9753968933379359,
+        "aupr_in": 0.9456682373670151,
+        "aupr_out": 0.9862540514803839,
+        "fpr95": 0.0808
+      }
+    },
+    "soft_palign_lambda_6.0": {
+      "method": "soft_palign_lambda_6.0",
+      "metrics": {
+        "auroc": 0.9756873144632378,
+        "aupr_in": 0.9459922203826886,
+        "aupr_out": 0.986515832280151,
+        "fpr95": 0.0785
+      }
+    },
+    "soft_palign_lambda_7.0": {
+      "method": "soft_palign_lambda_7.0",
+      "metrics": {
+        "auroc": 0.9758958405246808,
+        "aupr_in": 0.9461820350030207,
+        "aupr_out": 0.9867141294941368,
+        "fpr95": 0.0783
+      }
+    },
+    "soft_palign_lambda_8.0": {
+      "method": "soft_palign_lambda_8.0",
+      "metrics": {
+        "auroc": 0.9760384449430444,
+        "aupr_in": 0.9462324807136613,
+        "aupr_out": 0.9868679357181824,
+        "fpr95": 0.0773
+      }
+    },
+    "soft_palign_lambda_9.0": {
+      "method": "soft_palign_lambda_9.0",
+      "metrics": {
+        "auroc": 0.9761188816016568,
+        "aupr_in": 0.9461699785727916,
+        "aupr_out": 0.9869774353568619,
+        "fpr95": 0.0766
+      }
+    },
+    "soft_palign_lambda_10.0": {
+      "method": "soft_palign_lambda_10.0",
+      "metrics": {
+        "auroc": 0.976137141870901,
+        "aupr_in": 0.9459494207786203,
+        "aupr_out": 0.9870473716365793,
+        "fpr95": 0.0757
+      }
+    },
+    "fg_star_palign_lambda_0.0": {
+      "method": "foreground_star_palign_lambda_0.0",
+      "metrics": {
+        "auroc": 0.819565585088022,
+        "aupr_in": 0.7558282985979299,
+        "aupr_out": 0.8601130968567229,
+        "fpr95": 0.728
+      }
+    },
+    "fg_star_palign_lambda_1.0": {
+      "method": "foreground_star_palign_lambda_1.0",
+      "metrics": {
+        "auroc": 0.828382464618571,
+        "aupr_in": 0.7614651269786955,
+        "aupr_out": 0.8784938672771239,
+        "fpr95": 0.6771
+      }
+    },
+    "fg_star_palign_lambda_2.0": {
+      "method": "foreground_star_palign_lambda_2.0",
+      "metrics": {
+        "auroc": 0.8358890921643078,
+        "aupr_in": 0.7663210453618176,
+        "aupr_out": 0.8894359547623414,
+        "fpr95": 0.6435
+      }
+    },
+    "fg_star_palign_lambda_3.0": {
+      "method": "foreground_star_palign_lambda_3.0",
+      "metrics": {
+        "auroc": 0.8422199516741455,
+        "aupr_in": 0.770498631259914,
+        "aupr_out": 0.8970385247395545,
+        "fpr95": 0.6102
+      }
+    },
+    "fg_star_palign_lambda_4.0": {
+      "method": "foreground_star_palign_lambda_4.0",
+      "metrics": {
+        "auroc": 0.8476060838798757,
+        "aupr_in": 0.7741660358628066,
+        "aupr_out": 0.9027531569653189,
+        "fpr95": 0.5771
+      }
+    },
+    "fg_star_palign_lambda_5.0": {
+      "method": "foreground_star_palign_lambda_5.0",
+      "metrics": {
+        "auroc": 0.8521643596824301,
+        "aupr_in": 0.7773504755591899,
+        "aupr_out": 0.9071937976131415,
+        "fpr95": 0.5491
+      }
+    },
+    "fg_star_palign_lambda_6.0": {
+      "method": "foreground_star_palign_lambda_6.0",
+      "metrics": {
+        "auroc": 0.8560843976527441,
+        "aupr_in": 0.7801342603730017,
+        "aupr_out": 0.9107571638790128,
+        "fpr95": 0.5261
+      }
+    },
+    "fg_star_palign_lambda_7.0": {
+      "method": "foreground_star_palign_lambda_7.0",
+      "metrics": {
+        "auroc": 0.8594652744218156,
+        "aupr_in": 0.7826277179221066,
+        "aupr_out": 0.9136754978757275,
+        "fpr95": 0.5112
+      }
+    },
+    "fg_star_palign_lambda_8.0": {
+      "method": "foreground_star_palign_lambda_8.0",
+      "metrics": {
+        "auroc": 0.8623802209181912,
+        "aupr_in": 0.7847752578976627,
+        "aupr_out": 0.916087407678186,
+        "fpr95": 0.4968
+      }
+    },
+    "fg_star_palign_lambda_9.0": {
+      "method": "foreground_star_palign_lambda_9.0",
+      "metrics": {
+        "auroc": 0.8648909906800137,
+        "aupr_in": 0.7866205896189831,
+        "aupr_out": 0.9180948899939755,
+        "fpr95": 0.4895
+      }
+    },
+    "fg_star_palign_lambda_10.0": {
+      "method": "foreground_star_palign_lambda_10.0",
+      "metrics": {
+        "auroc": 0.867072109078357,
+        "aupr_in": 0.7882476851877893,
+        "aupr_out": 0.9197910743440861,
+        "fpr95": 0.4811
+      }
+    }
+  }
+}
